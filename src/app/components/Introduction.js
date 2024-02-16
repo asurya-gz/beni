@@ -33,7 +33,7 @@ export default function Introduction() {
         />
         <p className="text-white text-xl md:text-xl lg:text-2xl mb-8 font-medium">
           <i>
-            Terang ga perlu <span className="text-red-600">mahal</span>
+            Terang ga harus <span className="text-red-600">mahal</span>
           </i>
         </p>
         <button

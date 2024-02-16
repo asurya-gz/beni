@@ -13,7 +13,7 @@ export default function IniFooter() {
           />
           <div>
             <p className="text-lg font-semibold">BEN'Z AUTOLIGHT</p>
-            <p className="text-sm italic">Terang Ga Perlu Mahal</p>
+            <p className="text-sm italic">Terang Ga Harus Mahal</p>
             <p className="text-sm mt-2 text-slate-400">
               BSD AUTOPART, Jl. Letnan Sutopo No.9-10 BLOK A, Lengkong Gudang
               Tim., Kec. Serpong, Kota Tangerang Selatan, Banten 15310
