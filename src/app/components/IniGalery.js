@@ -50,6 +50,15 @@ export default function IniGallery() {
           height: 100%;
           object-fit: cover; /* Memastikan gambar terisi sepenuhnya di kotak */
           transition: transform 0.3s ease; /* Efek transisi */
+          animation: borderAnimation 2s infinite alternate; /* Animasi border */
+        }
+        @keyframes borderAnimation {
+          0% {
+            border: 3px solid transparent;
+          }
+          100% {
+            border: 3px solid #ff4d4d; /* Warna border */
+          }
         }
         .gallery-item:hover .gallery-image {
           transform: scale(1.1); /* Efek zoom saat mouse hover */

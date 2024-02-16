@@ -3,6 +3,14 @@ import React from "react";
 export default function FeaturedProducts() {
   return (
     <div className="bg-gray-900 min-h-screen flex flex-col justify-center items-center text-white font-sans">
+      <h1 className="text-blue-500 text-center text-2xl font-bold mb-8">
+        <i>
+          Produk{" "}
+          <span className="text-red-600 underline underline-offset-auto">
+            Autolight
+          </span>
+        </i>
+      </h1>
       <div className="max-w-5xl mx-auto p-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         <div className="bg-gray-800 p-6 rounded-lg shadow-md border border-blue-600">
           <h2 className="text-xl font-semibold mb-3 text-blue-500">
