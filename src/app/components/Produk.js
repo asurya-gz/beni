@@ -2,7 +2,7 @@ import React from "react";
 
 export default function FeaturedProducts() {
   return (
-    <div className="bg-gray-900 min-h-screen flex flex-col justify-center items-center text-white font-sans">
+    <div className="bg-gray-900 min-h-screen flex flex-col justify-center items-center text-white font-sans pt-4">
       <h1 className="text-blue-500 text-center text-2xl font-bold mb-8">
         <i>
           Produk{" "}
