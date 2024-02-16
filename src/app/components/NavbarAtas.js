@@ -85,7 +85,7 @@ export default function NavbarAtas() {
             </li>
             <li>
               <a href="#product" className="text-white hover:text-gray-300">
-                Profuk
+                Produk
               </a>
             </li>
             <li>
