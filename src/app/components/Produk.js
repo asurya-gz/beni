@@ -25,25 +25,6 @@ export default function FeaturedProducts() {
       <div className="max-w-5xl mx-auto p-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         <div className="bg-gray-800 p-6 rounded-lg shadow-md border border-blue-600">
           <h2 className="text-xl font-semibold mb-3 text-blue-500">
-            <span className="text-red-600">Bi-Led</span> Deluxe X9
-          </h2>
-          <p className="text-lg mb-3">
-            <span className="text-red-600">Bi-Led Deluxe X9</span> adalah produk
-            unggulan kami yang menawarkan kombinasi sempurna antara kinerja
-            canggih dan desain yang menarik. Dengan teknologi terbaru dan
-            material berkualitas tinggi, produk ini akan memberikan pencahayaan
-            yang optimal dan tahan lama untuk kendaraan Anda.
-          </p>
-          <button
-            onClick={() => sendMessage("Bi-Led Deluxe X9")}
-            className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-6 rounded-full transition duration-300"
-          >
-            Beli Sekarang
-          </button>
-        </div>
-
-        <div className="bg-gray-800 p-6 rounded-lg shadow-md border border-blue-600">
-          <h2 className="text-xl font-semibold mb-3 text-blue-500">
             <span className="text-red-600">Bi-Led</span> Deluxe X-Lite
           </h2>
           <p className="text-lg mb-3">
@@ -56,6 +37,28 @@ export default function FeaturedProducts() {
           <button
             onClick={() => sendMessage("Bi-Led Deluxe X-Lite")}
             className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-6 rounded-full transition duration-300"
+          >
+            Beli Sekarang
+          </button>
+        </div>
+
+        <div className="bg-gray-800 p-6 rounded-lg shadow-md border border-blue-600 relative">
+          <h2 className="text-xl font-semibold mb-3 text-blue-500">
+            <span className="text-red-600">Bi-Led</span> Deluxe X9
+          </h2>
+          <p className="text-lg mb-3">
+            <span className="text-red-600">Bi-Led Deluxe X9</span> adalah produk
+            unggulan kami yang menawarkan kombinasi sempurna antara kinerja
+            canggih dan desain yang menarik. Dengan teknologi terbaru dan
+            material berkualitas tinggi, produk ini akan memberikan pencahayaan
+            yang optimal dan tahan lama untuk kendaraan Anda.
+          </p>
+          <span className="absolute top-0 right-0 bg-yellow-500 text-white text-xs font-semibold px-2 py-1 rounded-tr-md rounded-bl-md">
+            Best Seller
+          </span>
+          <button
+            onClick={() => sendMessage("Bi-Led Deluxe X9")}
+            className="bg-yellow-500 hover:bg-yellow-600 text-white font-semibold py-2 px-6 rounded-full transition duration-300"
           >
             Beli Sekarang
           </button>
