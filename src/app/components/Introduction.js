@@ -12,7 +12,7 @@ export default function Introduction() {
 
   const handleClick = () => {
     // Find the target element
-    const targetElement = document.getElementById("product");
+    const targetElement = document.getElementById("galery");
     // Scroll to the target element smoothly
     targetElement.scrollIntoView({ behavior: "smooth" });
   };
