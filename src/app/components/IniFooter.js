@@ -31,7 +31,7 @@ export default function IniFooter() {
             <span>bens.autolight</span>
           </a>
           <a
-            href="https://wa.me/+6285695863107?text=Hallo%20BEN'Z%20AUTOLIGHT"
+            href="https://wa.me/+6285695863107?text=Hallo%20BEN'S%20AUTOLIGHT"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center space-x-2 text-sm"
