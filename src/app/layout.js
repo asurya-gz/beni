@@ -4,7 +4,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Ben'z Autolight",
+  title: "Ben's Autolight",
   description: "Terang Ga Perlu Mahal",
   icons: {
     icon: ["/benz-logo.png"],

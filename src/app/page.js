@@ -12,11 +12,11 @@ export default function Home() {
       <div id="home">
         <Introduction />
       </div>
-      <div id="product">
-        <Produk />
-      </div>
       <div id="galery">
         <IniGalery />
+      </div>
+      <div id="product">
+        <Produk />
       </div>
       <div>
         <Peta />

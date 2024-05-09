@@ -5,7 +5,7 @@ export default function FeaturedProducts() {
   // Fungsi untuk mengirim pesan WhatsApp
   const sendMessage = (productName) => {
     const phoneNumber = "+6285695863107"; // Ganti dengan nomor WhatsApp tujuan Anda
-    const message = `Hallo BEN'Z AUTOLIGHT saya ingin membeli produk ${productName}`;
+    const message = `Hallo BEN'S AUTOLIGHT saya ingin membeli produk ${productName}`;
     const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
       message
     )}`;
