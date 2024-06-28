@@ -4,6 +4,7 @@ import IniFooter from "./components/IniFooter";
 import IniGalery from "./components/IniGalery";
 import Produk from "./components/Produk";
 import Peta from "./components/Peta";
+import WhatsAppFloating from "./wa/page";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <Peta />
       </div>
       <IniFooter />
+      <WhatsAppFloating />
     </div>
   );
 }
