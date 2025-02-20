@@ -1,12 +1,12 @@
 "use client";
 import Head from "next/head";
 import { useState, useEffect } from "react";
-import Header from "./components/Header";
-import Main from "./components/Main";
-import Footer from "./components/Footer";
-import WhatsAppButton from "./components/WatsappButton";
+import Header from "../Header";
+import OurServices from "../OurService";
+import Footer from "../Footer";
+import WhatsAppButton from "../WatsappButton";
 
-export default function Home() {
+export default function Galery() {
   const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
@@ -50,7 +50,8 @@ export default function Home() {
       </Head>
 
       <Header isLoaded={isLoaded} />
-      <Main isLoaded={isLoaded} />
+      <OurServices isLoaded={isLoaded} />
+      <Footer />
       <WhatsAppButton />
     </div>
   );
