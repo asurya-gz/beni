@@ -24,16 +24,6 @@ const Footer = () => {
             <p className="mb-4" style={{ color: "#F4F5FB" }}>
               Upgrade Your Vehicle with Custom Lighting
             </p>
-            <div className="flex space-x-4">
-              <a
-                href="mailto:contact@georgysolusidigital.com"
-                className="flex items-center text-sm"
-                style={{ color: "#A9E1E2" }}
-              >
-                <Mail className="h-4 w-4 mr-2" />
-                contact@georgysolusidigital.com
-              </a>
-            </div>
           </div>
 
           {/* Quick Links */}
