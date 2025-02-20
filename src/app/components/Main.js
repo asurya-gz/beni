@@ -47,7 +47,7 @@ const Main = ({ isLoaded }) => {
               mobil dan motor Anda.
             </p>
             <div className="flex space-x-4">
-              <Link href="/components/OurService">
+              <Link href="/components/Product">
                 <button
                   className="px-6 py-3 rounded-lg font-medium transition-all duration-300 transform hover:scale-105"
                   style={{ backgroundColor: "#15B9FF", color: "#04092F" }}
